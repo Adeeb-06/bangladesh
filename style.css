@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #c3c3e3ab;
+    height: 75px;
+}
+
+.navbar {
+    height: 465px;
+    background-image: url(https://sgp1.digitaloceanspaces.com/cosmosgroup/news/y8eC0WBzPEEVyKIGGjcM3zKIgirEYLTLvioF3GaP.jpeg);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+nav {
+    display: inline;
+}
+
+nav {
+    display: inline;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 26px;
+    font-size: 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li ::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgba(153, 255, 0, 0.772);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li :hover::after {
+    width: 100%;
+}
+
+@media only screen and (max-width:300px) {
+    .navbar {
+        height: 465px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjkok1-8bJOTtPdEwU-twwynX1ocUuCl_a1M45bYladCvnpOjBzIpPPenbOQv8ujDn5sE&usqp=CAU);
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px 7px;
+        font-size: 13px;
+
+        top: 25px;
+        position: relative;
+    }
+
+
+
+
+}
+
+.para {
+    position: relative;
+    top: 122px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+.well {
+    text-align: center;
+    position: relative;
+    font-size: 69px;
+    top: 105px;
+    color: aliceblue;
+}
+
+@media screen and (max-width:300px) {
+    .well {
+        text-align: center;
+        position: relative;
+        font-size: 41px;
+        top: 135px;
+        color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+    }
+
+}
+
+#hr1 {
+    position: relative;
+    background-color: aliceblue;
+    top: 110px;
+    padding: 2px;
+    margin: 2px;
+    width: 841px;
+    left: 222px;
+}
+
+@media screen and (max-width:300px) {
+    #hr1 {
+        display: none;
+        width: 20px;
+    }
+
+}
+
+.facts {
+    position: relative;
+    top: 405px;
+}
+
+.fact {
+    position: relative;
+    top: 27px;
+    font-size: 40px;
+    padding: 0 34px;
+    font-family: 'Poppins', sans-serif
+}
+
+.mainfact {
+    position: relative;
+    top: 43px;
+    padding: 0 34px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 863px;
+    font-size: 23px;
+}
+
+#hr2 {
+    position: relative;
+    top: 33px;
+    width: 505px;
+    left: 33px;
+}
+
+@media screen and (max-width:300px) {
+    .fact {
+        position: relative;
+        font-size: 25px;
+        padding: 0 13px;
+        top: 27px;
+        font-family: 'Poppins', sans-serif
+    }
+
+    #hr2 {
+        position: relative;
+        top: 33px;
+        width: 505px;
+        left: 33px;
+        display: none;
+    }
+
+    .mainfact {
+        position: relative;
+        top: 43px;
+        padding: 1px 11px;
+        font-family: 'Roboto Condensed', sans-serif;
+        width: 100%;
+        font-size: 15px;
+        display: inline-block;
+    }
+
+}
+
+
+
+.history {
+    position: relative;
+    top: 451px;
+}
+
+.historyheading {
+    top: 458px;
+    font-size: 40px;
+    padding: 0 34px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:300px) {
+    .historyheading {
+        top: 458px;
+        font-size: 25px;
+        padding: 0 9px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #hr3 {
+        display: none;
+    }
+
+
+
+}
+
+.places {
+    position: relative;
+    top: 552px;
+    display: flex;
+}
+
+.head {
+    position: relative;
+    right: 0;
+    left: 38px;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    top: 523px;
+}
+
+@media screen and (max-width:300px) {
+    .head {
+        position: relative;
+        right: 0;
+        left: 6px;
+        font-size: 27px;
+        font-family: 'Poppins', sans-serif;
+        top: 496px;
+    }
+
+    .places {
+        flex-wrap: wrap;
+    }
+}
+
+.lalbagh {
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 411px;
+    width: 311px;
+    position: relative;
+    left: 68px;
+    top: 15px;
+    transition: 0.7s;
+    background: linear-gradient(#b3595963, #650013);
+
+}
+.lalbagh:hover {
+    top: -5px;
+}
+
+@media screen and (max-width:300px) {
+
+    .lalbagh {
+        border: 2px solid black;
+        border-radius: 20px;
+        height: 411px;
+        width: 270px;
+        position: relative;
+        left: 15px;
+        top: 15px;
+        background: linear-gradient(#b3595963, #650013);
+    }
+
+    .lalbagh:hover {
+        top: 15px;
+    }
+
+
+}
+
+
+.lalbaghpic {
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 88%;
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    margin: 9px;
+    height: 120px;
+
+}
+
+.headlal {
+    top: 143px;
+    position: absolute;
+    padding: 2px 11px;
+    font-size: 30px;
+    left: 53px;
+    font-family: 'Arimo', sans-serif;
+}
+
+@media screen and (max-width:300px) {
+
+    .headlal {
+        top: 143px;
+        position: absolute;
+        padding: 2px 11px;
+        font-size: 30px;
+        left: 35px;
+        font-family: 'Arimo', sans-serif;
+    }
+}
+
+.lalbaghph4 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 27px;
+}
+
+.lalbaghpstructure {
+    font-family: 'Arimo', sans-serif;
+    font-size: 27px;
+}
+
+.lalbaghp {
+    bottom: 0;
+    position: absolute;
+    height: 210px;
+    padding: 1px 14px;
+    overflow: hidden;
+    top: 171px;
+    overflow-y: scroll;
+    margin: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.ahsan {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 411px;
+    width: 311px;
+    left: 439px;
+    top: 137px;
+    background-color: #b887a36e;
+    transition: 0.7s;
+    left: 123px;
+    top: 14px;
+    background: linear-gradient(#fff1f1, #7b0f42eb);
+}
+
+.ahsan:hover {
+    top: -5px;
+}
+@media screen and (max-width:300px) {
+    .ahsan {
+        position: relative;
+        border: 2px solid black;
+        border-radius: 20px;
+        height: 411px;
+        width: 270px;
+        left: 439px;
+        top: 137px;
+        background-color: #b887a36e;
+        left: 15px;
+        top: 36px;
+        background: linear-gradient(#fff1f1, #7b0f42eb);
+    }
+    .ahsan:hover {
+        top: 36px;
+    }
+
+
+
+}
+
+
+.ahsanhead {
+    top: 143px;
+    position: absolute;
+    padding: 2px 11px;
+    font-size: 30px;
+    left: 53px;
+    font-family: 'Arimo', sans-serif;
+}
+@media screen and (max-width:300px) {
+    .ahsanhead {
+        top: 143px;
+        position: absolute;
+        padding: 2px 11px;
+        font-size: 26px;
+        left: 32px;
+        font-family: 'Arimo', sans-serif;
+    }
+
+    
+}
+
+.ahsanpic {
+    border: 2px solid #a1acb5;
+    border-radius: 15px;
+    width: 88%;
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    margin: 9px;
+    height: 123px;
+}
+
+.ahsanp {
+    bottom: 0;
+    position: absolute;
+    padding: 1px 14px;
+    height: 210px;
+    top: 171px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.ahsanph4 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 27px;
+}
+
+.dalan {
+    height: 411px;
+    width: 311px;
+    border: 2px solid black;
+    border-radius: 20px;
+    top: 14px;
+    position: relative;
+    left: 170px;
+    transition: 0.7s;
+    background: linear-gradient(#a6d1deb5, #022489de);
+}
+
+.dalan:hover {
+    top: -5px;
+}
+@media screen and (max-width:300px) {
+    
+    .dalan {
+        height: 411px;
+        width: 270px;
+        border: 2px solid black;
+        border-radius: 20px;
+        top: 62px;
+        position: relative;
+        left: 17px;
+        background: linear-gradient(#a6d1deb5, #022489de);
+    }
+    .dalan:hover {
+        top: 62px;
+    }
+
+}
+
+.dalanpic {
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 88%;
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    margin: 9px;
+    height: 123px;
+}
+
+.headdalan {
+    top: 143px;
+    position: absolute;
+    padding: 2px 11px;
+    font-size: 30px;
+    left: 43px;
+    font-family: 'Arimo', sans-serif;
+
+}
+@media screen and (max-width:300px) {
+    .headdalan {
+        top: 143px;
+        position: absolute;
+        padding: 2px 11px;
+        font-size: 26px;
+        left: 36px;
+        font-family: 'Arimo', sans-serif;
+    
+    }
+
+    
+}
+
+.dalanp {
+    bottom: 0;
+    position: absolute;
+    padding: 1px 14px;
+    height: 210px;
+    top: 171px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 13px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.dalanph4 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 21px;
+}
